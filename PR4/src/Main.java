@@ -12,7 +12,7 @@ public class Main {
             Random random = new Random();
             char[] initialArray = new char[20];
             for (int i = 0; i < initialArray.length; i++) {
-                initialArray[i] = (char) (random.nextInt(94) + 32); // Random printable characters
+                initialArray[i] = (char) (random.nextInt(94) + 32);
             }
 
             System.out.println("Initial Array: " + Arrays.toString(initialArray));
@@ -59,7 +59,7 @@ public class Main {
             Random random = new Random();
             double[] numbers = new double[20];
             for (int i = 0; i < numbers.length; i++) {
-                numbers[i] = random.nextDouble() * 100; // Random doubles from 0 to 100
+                numbers[i] = random.nextDouble() * 100;
             }
 
             System.out.println("\nInitial Numbers: " + Arrays.toString(numbers));
